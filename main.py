@@ -1,12 +1,3 @@
-import turtle
-import time
-from settings import *
+from koch import Koch
 
-test = turtle.Turtle()
-
-turtle.screensize(WIDTH, HEIGHT)
-turtle.title('Fractal X')
-
-test.shape('turtle')
-
-time.sleep(5)
+# Koch(iterations)
