@@ -5,6 +5,7 @@ from settings import *
 test = turtle.Turtle()
 
 turtle.screensize(WIDTH, HEIGHT)
+turtle.title('Fractal X')
 
 test.shape('turtle')
 
